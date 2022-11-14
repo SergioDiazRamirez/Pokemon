@@ -1,0 +1,54 @@
+@options
+@packages
+@argfile
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'C:/Users/sdiazram/Desktop/Mis repositorios/Pokemon/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/sdiazram/Desktop/Mis repositorios/Pokemon/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Pokemon 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'Pokemon 1.0-SNAPSHOT API'
+com.mycompany.pokemon
+pokemons
+'C:/Users/sdiazram/Desktop/Mis repositorios/Pokemon/src/main/java/com/mycompany/pokemon/DB.java'
+'C:/Users/sdiazram/Desktop/Mis repositorios/Pokemon/src/main/java/com/mycompany/pokemon/FightManagment.java'
+'C:/Users/sdiazram/Desktop/Mis repositorios/Pokemon/src/main/java/com/mycompany/pokemon/Main.java'
+'C:/Users/sdiazram/Desktop/Mis repositorios/Pokemon/src/main/java/com/mycompany/pokemon/Trainer.java'
+'C:/Users/sdiazram/Desktop/Mis repositorios/Pokemon/src/main/java/com/mycompany/pokemon/Type.java'
+'C:/Users/sdiazram/Desktop/Mis repositorios/Pokemon/src/main/java/pokemons/Charizar.java'
+'C:/Users/sdiazram/Desktop/Mis repositorios/Pokemon/src/main/java/pokemons/Charmander.java'
+'C:/Users/sdiazram/Desktop/Mis repositorios/Pokemon/src/main/java/pokemons/Charmeleon.java'
+'C:/Users/sdiazram/Desktop/Mis repositorios/Pokemon/src/main/java/pokemons/Pokemon.java'
+C:\Users\sdiazram\Desktop\Mis repositorios\Pokemon\src\main\java = 1667912389673
+C:\Users\sdiazram\Desktop\Mis repositorios\Pokemon\target\site\apidocs\allclasses-index.html = 1668179828576
+C:\Users\sdiazram\Desktop\Mis repositorios\Pokemon\target\site\apidocs\allpackages-index.html = 1668179828579
+C:\Users\sdiazram\Desktop\Mis repositorios\Pokemon\target\site\apidocs\element-list = 1668179828414
+C:\Users\sdiazram\Desktop\Mis repositorios\Pokemon\target\site\apidocs\help-doc.html = 1668179828637
+C:\Users\sdiazram\Desktop\Mis repositorios\Pokemon\target\site\apidocs\index-all.html = 1668179828623
+C:\Users\sdiazram\Desktop\Mis repositorios\Pokemon\target\site\apidocs\index.html = 1668179828551
+C:\Users\sdiazram\Desktop\Mis repositorios\Pokemon\target\site\apidocs\jquery-ui.overrides.css = 1668179828666
+C:\Users\sdiazram\Desktop\Mis repositorios\Pokemon\target\site\apidocs\member-search-index.js = 1668179828590
+C:\Users\sdiazram\Desktop\Mis repositorios\Pokemon\target\site\apidocs\module-search-index.js = 1668179828582
+C:\Users\sdiazram\Desktop\Mis repositorios\Pokemon\target\site\apidocs\overview-summary.html = 1668179828627
+C:\Users\sdiazram\Desktop\Mis repositorios\Pokemon\target\site\apidocs\overview-tree.html = 1668179828543
+C:\Users\sdiazram\Desktop\Mis repositorios\Pokemon\target\site\apidocs\package-search-index.js = 1668179828585
+C:\Users\sdiazram\Desktop\Mis repositorios\Pokemon\target\site\apidocs\script.js = 1668179828645
+C:\Users\sdiazram\Desktop\Mis repositorios\Pokemon\target\site\apidocs\search.js = 1668179828649
+C:\Users\sdiazram\Desktop\Mis repositorios\Pokemon\target\site\apidocs\stylesheet.css = 1668179828642
+C:\Users\sdiazram\Desktop\Mis repositorios\Pokemon\target\site\apidocs\tag-search-index.js = 1668179828592
+C:\Users\sdiazram\Desktop\Mis repositorios\Pokemon\target\site\apidocs\type-search-index.js = 1668179828587
