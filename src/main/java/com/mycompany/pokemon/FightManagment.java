@@ -43,14 +43,30 @@ public class FightManagment {
         
         if(strengthForFight > pk2.getStrength()) {
             pk1.train();
+            if(pk1.getLevel() == pk1.getEvolutionLevel())
+                pk1 = pk1.evolve();
             pk1.train();
+            if(pk1.getLevel() == pk1.getEvolutionLevel())
+                pk1 = pk1.evolve();
             pk2.train();
+            if(pk2.getLevel() == pk2.getEvolutionLevel())
+                pk2 = pk2.evolve();
+            
             fightResult = 1;
         }
         if(strengthForFight < pk2.getStrength()) {
             pk1.train();
+            if(pk1.getLevel() == pk1.getEvolutionLevel())
+                pk1 = pk1.evolve();
+            
             pk2.train();
+            if(pk2.getLevel() == pk2.getEvolutionLevel())
+                pk2 = pk2.evolve();
+            
             pk2.train();
+            if(pk2.getLevel() == pk2.getEvolutionLevel())
+                pk2 = pk2.evolve();
+            
             fightResult = -1;
         }
         

@@ -52,9 +52,6 @@ public abstract class Pokemon {
     public void train() {
         if(level < 100) {
             level++;
-            if(level == evolutionLevel) {
-                evolve();
-            }
             strength += incrementPerLevel;
         }
     }

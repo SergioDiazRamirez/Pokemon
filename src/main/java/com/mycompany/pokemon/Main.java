@@ -57,16 +57,8 @@ public class Main {
                 }
             }
 
-//            System.out.println("""
-//                               ¿ Desea intentar capturar el pokemon ?
-//                               0: Sí, 1: No
-//                               """);
-//            int option = askOption(2);
-//            if(option == 0) {
-//                myTrainer.capture(pokemon2);
-//            }
         } else if (fightResult == -1) {
-            System.out.println("Gana: \n" + pokemon2.toString() + "\n");
+            System.out.println("Has perdido contra: \n" + pokemon2.toString() + "\n");
         } else {
             System.out.println("Empate\n");
         }
@@ -119,13 +111,18 @@ public class Main {
                 // Entrenar pokemon
                 case 1 -> {
                     System.out.println("Elige tu pokemon a entrenar");
-                    Pokemon[] myPokemons = user.getTrainer().getPokemons();
+                    Pokemon[] myPokemons = user.getTrainer().getPokemonTeam();
                     for (int i=0; i < myPokemons.length; i++) {
-                        System.out.println(i +": \n"+ myPokemons[i].toString());    
-                        System.out.println("==========================");
+                        if(myPokemons[i] != null) {
+                            System.out.println(i +": \n"+ myPokemons[i].toString());    
+                            System.out.println("==========================");
+                        }
                     }
                     option = askOption(myPokemons.length);
                     myPokemons[option].train();
+                    if (myPokemons[option].getLevel() == myPokemons[option].getEvolutionLevel()) {
+                        myPokemons[option] = myPokemons[option].evolve();
+                    }
                 }
                 // Luchar contra entrenador
                 case 2 -> {

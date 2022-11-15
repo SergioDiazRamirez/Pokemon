@@ -85,6 +85,10 @@ public class Trainer {
         }   
         return myPokemons;
     }
+
+    public Pokemon[] getPokemonTeam() {
+        return pokemonTeam;
+    }
     
     public String getName() {
         return name;
